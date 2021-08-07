@@ -582,7 +582,7 @@ function DiscordLib:Window(text)
 	UserSettingsPadTag.Position = UDim2.new(0.0419999994, 0, 0.493999988, 0)
 	UserSettingsPadTag.Size = UDim2.new(0, 65, 0, 19)
 	UserSettingsPadTag.Font = Enum.Font.Gotham
-	UserSettingsPadTag.Text = "•" .. tag
+	UserSettingsPadTag.Text = "#" .. tag
 	UserSettingsPadTag.TextColor3 = Color3.fromRGB(184, 186, 189)
 	UserSettingsPadTag.TextSize = 13.000
 	UserSettingsPadTag.TextXAlignment = Enum.TextXAlignment.Left
