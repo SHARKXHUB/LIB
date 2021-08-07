@@ -256,7 +256,7 @@ function DiscordLib:Window(text)
 	UserTag.TextXAlignment = Enum.TextXAlignment.Left
 	
 	UserName.Text = user
-	UserTag.Text = "#" .. tag
+	UserTag.Text = "•" .. tag
 
 	ServersHoldFrame.Name = "ServersHoldFrame"
 	ServersHoldFrame.Parent = MainFrame
@@ -582,7 +582,7 @@ function DiscordLib:Window(text)
 	UserSettingsPadTag.Position = UDim2.new(0.0419999994, 0, 0.493999988, 0)
 	UserSettingsPadTag.Size = UDim2.new(0, 65, 0, 19)
 	UserSettingsPadTag.Font = Enum.Font.Gotham
-	UserSettingsPadTag.Text = "#" .. tag
+	UserSettingsPadTag.Text = "•" .. tag
 	UserSettingsPadTag.TextColor3 = Color3.fromRGB(184, 186, 189)
 	UserSettingsPadTag.TextSize = 13.000
 	UserSettingsPadTag.TextXAlignment = Enum.TextXAlignment.Left
@@ -1055,7 +1055,7 @@ function DiscordLib:Window(text)
 	UserPanelTag.Position = UDim2.new(0.0419999994, 0, 0.493999988, 0)
 	UserPanelTag.Size = UDim2.new(0, 65, 0, 19)
 	UserPanelTag.Font = Enum.Font.Gotham
-	UserPanelTag.Text = "#" .. tag
+	UserPanelTag.Text = "•" .. tag
 	UserPanelTag.TextColor3 = Color3.fromRGB(184, 186, 189)
 	UserPanelTag.TextSize = 17.000
 	UserPanelTag.TextXAlignment = Enum.TextXAlignment.Left
@@ -1310,7 +1310,7 @@ function DiscordLib:Window(text)
 		HashtagLabel.Position = UDim2.new(0.765877604, 0, -0.0546001866, 0)
 		HashtagLabel.Size = UDim2.new(0, 23, 0, 37)
 		HashtagLabel.Font = Enum.Font.Gotham
-		HashtagLabel.Text = "#"
+		HashtagLabel.Text = "•"
 		HashtagLabel.TextColor3 = Color3.fromRGB(79, 82, 88)
 		HashtagLabel.TextSize = 16.000
 
@@ -1359,12 +1359,12 @@ function DiscordLib:Window(text)
 			tag = TagTextbox.Text
 			UserSettingsPadUser.Text = user
 			UserSettingsPadUser.Size = UDim2.new(0, UserSettingsPadUser.TextBounds.X + 2, 0, 19)
-			UserSettingsPadTag.Text = "#" .. tag
-			UserPanelTag.Text = "#" .. tag
+			UserSettingsPadTag.Text = "•" .. tag
+			UserPanelTag.Text = "•" .. tag
 			UserPanelUser.Text = user
 			UserPanelUser.Size = UDim2.new(0, UserPanelUser.TextBounds.X + 2, 0, 19)
 			UserName.Text = user
-			UserTag.Text = "#" .. tag
+			UserTag.Text = "•" .. tag
 			SaveInfo()
 
 			UserChange:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .2, true)
@@ -1814,7 +1814,7 @@ function DiscordLib:Window(text)
 		Hashtag.Position = UDim2.new(0.0279720277, 0, 0, 0)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
-		Hashtag.Text = "#"
+		Hashtag.Text = "•"
 		Hashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 		Hashtag.TextSize = 25.000
 
@@ -2041,7 +2041,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
-			ChannelBtnHashtag.Text = "#"
+			ChannelBtnHashtag.Text = "•"
 			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(114, 118, 125)
 			ChannelBtnHashtag.TextSize = 21.000
 
